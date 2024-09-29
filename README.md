@@ -41,8 +41,8 @@ This is a .NET 8 project that provides a WorkerService for consume messages from
 1. Ensure Docker is installed and up on your machine.
 2. Ensure rabbitMQ and PostgresDb is running on your machine.
 3. Navigate to the root directory.
-4. Run `docker build -t tech-challenge-insert .` to start the application.
-5. Run `docker run --name tech-challenge-insert -p 8083:80 -d tech-challenge-update` to start the container.
+4. Run `docker build -t tech-challenge-update .` to start the application.
+5. Run `docker run --name tech-challenge-update -p 8083:80 -d tech-challenge-update` to start the container.
 6. The worker will start to listen the queue on rabbitMq.
 
 ## Running the Tests
